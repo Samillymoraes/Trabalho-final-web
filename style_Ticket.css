@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: #229017;
+}
+
+.cabeçalho{
+    height: 10vh;    
+    background-color: #32553B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_cabeçalho{
+    width: 15vw; 
+}
+
+.cabeçalho > p{
+    color: white;
+    font-size: 25px;
+}
+
+#botao_voltar_cabeçalho{
+    margin-right: 50px;
+}
+#botao_voltar_cabeçalho > button{
+    background-color: #A6C988;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 20px;
+    border-color: #A6C988;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav > p{
+    margin-right: 80px;
+}
+
+#f1 > p{
+    color: white;
+    font-size: 27px;
+    margin: 0px;
+    
+}
+
+#foraDoFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 60px;
+}
+#formulário{
+    height: 50vh;
+    width: 27vw;
+    background-color: #A6C988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    border-radius: 50px;
+}
+.espaço_form{
+    margin-top: 10%;
+}
+.espaço_form >input{
+    width: 20vw;
+    height: 6vh;
+    border: #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+form{
+    gap: 10px;
+}
+
+#fora_do_botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    margin-top:20px ;
+    height: 9vh;
+    width: 20vw;
+    font-size: 25px ;
+    border-radius: 20px;
+    color: white;
+    background-color: #32553B;
+    border-color: #32553B;
+    border-bottom: #32553B;
+    border-right: #32553B;
+}
+#textoComPrecos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
